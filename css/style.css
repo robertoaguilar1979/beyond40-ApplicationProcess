@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+.rating {
+  display: inline-block;
+}
+
+.five-stars {
+  padding-left: 0.35em;
+}
+.fa-star {
+  color: #ffab41;
+}
