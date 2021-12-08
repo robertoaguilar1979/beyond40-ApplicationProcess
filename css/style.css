@@ -61,6 +61,7 @@ a:hover {
   padding-right: 2em;
   padding-left: 2em;
 }
+
 .star-reviews {
   width: 250px;
   margin: 0.25em;
@@ -119,6 +120,12 @@ a:hover {
 .barOne {
   margin-left: -15px;
 }
+.hover-opacity:hover .clear {
+  opacity: 0.45;
+}
+.clear:hover {
+  opacity: 1 !important;
+}
 
 /************* button div section *****************/
 .comment-section {
@@ -148,4 +155,8 @@ a:hover {
 
 .review-btn {
   margin-top: 1em;
+}
+.fa-comments,
+.fa-edit {
+  margin-right: 0.5em;
 }
