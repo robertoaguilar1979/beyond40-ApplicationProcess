@@ -4,7 +4,11 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
+*,
+:focus,
+:hover {
+  outline: 0;
+}
 body {
   font-family: "Montserrat", Arial, sans-serif;
 }
@@ -120,10 +124,10 @@ a:hover {
 .barOne {
   margin-left: -15px;
 }
-.hover-opacity:hover .clear {
+.hover-opacity:hover .star-reviews {
   opacity: 0.45;
 }
-.clear:hover {
+.star-reviews:hover {
   opacity: 1 !important;
 }
 
