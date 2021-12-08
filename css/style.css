@@ -164,3 +164,29 @@ a:hover {
 .fa-edit {
   margin-right: 0.5em;
 }
+
+/* mobile version */
+
+@media (max-width: 960px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .stars,
+  .review-para {
+    text-align: center;
+  }
+  .star-ratings {
+    border-top: solid rgba(58, 58, 58, 0.2) 1px;
+    border-bottom: solid rgba(58, 58, 58, 0.2) 1px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-left: unset;
+    border-right: unset;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .comment-section {
+    margin: 0 auto;
+  }
+}
